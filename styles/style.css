@@ -339,6 +339,127 @@ body{
     left: 113%;
     z-index: ;
 }
+/* 
+portfolio section start here */
+
+.portfolio-container{
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.portfolio-text-content h5{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.portfolio-text-content h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.portfolio-text-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.portfolio-items{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 10px;
+}
+.item{
+    width: 424px;
+    height: 450px;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Subscribe Newsletter part style */
+
+.subscribe-newsletter-section{
+    width: 1320px;
+    height: 616px;
+    border: 2px solid red;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-newsletter-tittle{
+    width: 896px;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.subscribe-btn{
+    width: 648px;
+    height: 72px;
+    border: 2px solid red;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    text-align:center;
+}
 
 
+/* footer style start here */
+.footer-container{
+    width: 1320px;
+    height: 609px;
+    background: rgb(7, 2, 17);
+    margin: 0 auto;
+}
+.footer-first-section{
+    display: flex;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 80px;
+
+}
+.contact{
+    display: flex;
+}
+.horizontal-line{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.social-icons{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+
+}
+.footer-last-part{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-top: 50px;
+}
 
